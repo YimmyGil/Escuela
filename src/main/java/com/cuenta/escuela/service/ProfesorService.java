@@ -30,5 +30,7 @@ public class ProfesorService {
 	public Optional<Profesor> detalleProfesorId(Integer id) {
 		return iProfesorDao.findById(id);
 	}
+	
+	//Nueva Prueba de git
 
 }
